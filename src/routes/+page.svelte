@@ -4,7 +4,7 @@
 	let v = 0;
 </script>
 
-<main class="space-y-14">
+<main class="space-y-10">
 	<Skills />
 	<Projects />
 </main>

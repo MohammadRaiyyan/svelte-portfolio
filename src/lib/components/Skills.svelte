@@ -1,24 +1,18 @@
-<div class="space-y-5">
-	<h3 class="text-2xl font-semibold">Skills</h3>
+<script>
+	import { Skills } from '$lib/data/skills';
+</script>
+
+<div class="space-y-5 bg-white dark:bg-neutral-900 p-5 rounded-lg">
+	<h3 class="text-xl font-semibold">Skills</h3>
 	<div class="flex gap-5 flex-wrap">
-		<div class="p-4 flex justify-center items-center border rounded h-32 w-full sm:w-40">HTML</div>
-		<div class="p-4 flex justify-center items-center border rounded h-32 w-full sm:w-40">CSS</div>
-		<div class="p-4 flex justify-center items-center border rounded h-32 w-full sm:w-40">SCSS</div>
-		<div class="p-4 flex justify-center items-center border rounded h-32 w-full sm:w-40">
-			Tailwind Css
-		</div>
-		<div class="p-4 flex justify-center items-center border rounded h-32 w-full sm:w-40">
-			Javascript
-		</div>
-		<div class="p-4 flex justify-center items-center border rounded h-32 w-full sm:w-40">
-			Typescript
-		</div>
-		<div class="p-4 flex justify-center items-center border rounded h-32 w-full sm:w-40">
-			React Js
-		</div>
-		<div class="p-4 flex justify-center items-center border rounded h-32 w-full sm:w-40">
-			Svelte
-		</div>
-		<div class="p-4 flex justify-center items-center border rounded h-32 w-full sm:w-40">Redux</div>
+		{#each Skills as skill (skill?.name)}
+			<div
+				class=" flex flex-grow justify-center items-center flex-col gap-1 rounded-lg h-28 w-full sm:w-40 shadow-sm"
+				style="color:{`${skill.colorTheme}`}; border-color: {`${skill.colorTheme}`}; background-color: {`${skill.colorTheme}1A`}; bac"
+			>
+				<span>{@html skill.icon}</span>
+				<h4 class="font-semibold text-sm">{skill?.name}</h4>
+			</div>
+		{/each}
 	</div>
 </div>
