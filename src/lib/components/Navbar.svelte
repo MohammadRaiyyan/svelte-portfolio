@@ -2,6 +2,6 @@
 	import { NavLinks } from '$lib';
 </script>
 
-<nav class="flex justify-start bg-white dark:bg-neutral-900 p-5">
+<nav class="flex flex-col justify-between gap-1 w-full text-sm space-y-2">
 	<NavLinks />
 </nav>

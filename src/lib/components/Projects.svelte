@@ -1,4 +1,6 @@
 <script lang="js">
+	import PageTitle from '$lib/common/PageTitle/index.svelte';
+
 	import { projects } from '$lib/data/projects';
 	import { linear } from 'svelte/easing';
 	import { fade } from 'svelte/transition';
@@ -24,9 +26,11 @@
 	}
 </script>
 
-<div class="space-y-5 bg-white dark:bg-neutral-900 p-5 rounded-lg">
-	<h3 class="text-xl font-semibold">Projects</h3>
-	<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-5">
+<div class="space-y-5 p-5 h-max">
+	<PageTitle title="Projects" />
+	<div
+		class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-5 max-h-[calc(100vh-160px)] overflow-hidden hover:overflow-auto py-4"
+	>
 		{#each projects as project, i (project?.title)}
 			<div
 				role="button"

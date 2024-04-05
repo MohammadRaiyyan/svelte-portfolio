@@ -1,10 +1,5 @@
 <script>
-	import { Projects, Skills } from '$lib';
-
-	let v = 0;
+	import About from '$lib/components/About.svelte';
 </script>
 
-<main class="space-y-10">
-	<Skills />
-	<Projects />
-</main>
+<About />
