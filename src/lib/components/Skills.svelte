@@ -5,10 +5,10 @@
 
 <div class="space-y-5 p-5 rounded-xl">
 	<PageTitle title="Skills" />
-	<div class="grid gap-5 grid-cols-4">
+	<div class="flex flex-wrap gap-5">
 		{#each Skills as skill (skill?.name)}
 			<div
-				class="col-span-1 flex flex-grow justify-center items-center flex-col gap-1 rounded-lg h-28 w-full shadow-sm"
+				class="min-w-[150px] flex-1 flex justify-center items-center flex-col gap-1 rounded-lg h-28 shadow-sm"
 				style="color:{`${skill.colorTheme}`}; border-color: {`${skill.colorTheme}`}; background-color: {`${skill.colorTheme}1A`}; bac"
 			>
 				<span>{@html skill.icon}</span>

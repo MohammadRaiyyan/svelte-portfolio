@@ -18,9 +18,8 @@ html {
 	width: 0px;
 	height: 0px;
 	position: absolute;
-	transform: translate(58px, calc(50% - -4px));
 	border: 10px solid transparent;
-	@apply dark:border-r-zinc-800 border-r-white;
+	@apply lg:dark:border-r-zinc-800 lg:border-r-white  lg:translate-x-[60px] lg:translate-y-[calc(50%--4px)];
 	view-transition-name: indicator;
 }
 @layer utilities {

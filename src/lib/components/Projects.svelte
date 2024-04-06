@@ -2,6 +2,7 @@
 	import PageTitle from '$lib/common/PageTitle/index.svelte';
 
 	import { projects } from '$lib/data/projects';
+	import { flip } from 'svelte/animate';
 	import { linear } from 'svelte/easing';
 	import { fade } from 'svelte/transition';
 	/**
@@ -39,9 +40,10 @@
 				on:mouseleave={() => handleExtraInfo(null)}
 				class="w-full rounded-lg shadow-sm relative"
 				style="background-color: {`${project.colorTheme}1A`}; color: {`${project.colorTheme}`};"
+				animate:flip
 			>
 				<img
-					class="object-fill w-full h-48 rounded-t-lg"
+					class="object-fill w-full h-auto rounded-t-lg"
 					src={project.image}
 					alt={project.title + 'image'}
 				/>
@@ -52,17 +54,13 @@
 				</div>
 				{#if project?.title === showExtraInfoId}
 					<div
-						in:spin={{ duration: 1000 }}
+						in:fade
 						out:fade
 						style="background-color: {`${project.colorTheme}cc`};"
-						class={`backdrop-filter backdrop-blur h-max min-h-full p-4 shadow-2xl absolute scale-110 transition-all ease-linear inset-0  z-50  rounded-lg text-white`}
+						class={`backdrop-filter backdrop-blur h-max min-h-full p-4 shadow-2xl absolute transition-all ease-linear inset-0  z-50  rounded-lg text-white flex items-center justify-center`}
 					>
-						<div class="space-y-4 min-h-[240px] flex flex-col justify-between">
-							<div class="h-full flex-1">
-								<p class="text-justify text-sm">{project.description}</p>
-							</div>
-
-							<div class="space-y-2 font-semibold text-sm shadow-2xl">
+						<div class="space-y-4 h-max">
+							<div class="space-y-2 font-medium text-sm shadow-2xl">
 								<button
 									style="background-color: {`${project.colorTheme}`};"
 									class="w-full border-white border py-1 rounded-md text-white"

@@ -1,12 +1,11 @@
 <script>
-	import { Envelop, Location, Phone } from '$lib/common/Icons';
 	import { navbarFooterLinks } from '$lib/constants';
 </script>
 
 <aside
 	class="p-5 space-y-10 flex flex-col justify-center items-center h-max dark:text-gray-300 w-full"
 >
-	<div class="space-y-8 flex flex-col justify-center items-center text-center">
+	<div class=" space-y-8 flex flex-col justify-center items-center text-center">
 		<div class="rounded-xl relative w-52 h-40">
 			<div class="absolute -top-12">
 				<img class="rounded-xl w-52 h-52" src="/Dp.jpg" alt="coverpicture" />
@@ -31,7 +30,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="grid grid-flow-row gap-[0.5px] w-full rounded-lg overflow-hidden">
+	<!-- <div class="grid grid-flow-row gap-[0.5px] w-full rounded-lg overflow-hidden">
 		<div class="dark:bg-zinc-700/30 bg-zinc-50 p-3 flex items-center gap-2">
 			<span class="dark:bg-zinc-700/30 bg-zinc-50 p-2 rounded-lg"><Phone /></span>
 			<span>+91 8887634517</span>
@@ -46,5 +45,5 @@
 				>Hyderabad India</span
 			>
 		</div>
-	</div>
+	</div> -->
 </aside>
