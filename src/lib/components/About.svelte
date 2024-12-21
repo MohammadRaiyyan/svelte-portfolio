@@ -33,24 +33,24 @@
 		<PageTitle title="Experience" />
 		<div class="space-y-5">
 			<div class="space-y-1">
-				<h2 class="font-medium text-gray-300">Wobot AI</h2>
-				<p class="text-sm text-gray-300">3 Years 2 Months</p>
+				<h2 class="font-medium daek:text-gray-300">Wobot AI</h2>
+				<p class="text-sm dark:text-gray-300">3 Years 2 Months</p>
 				<p class="text-sm">Delhi, India</p>
 			</div>
 			<ul class="space-y-5 text-sm list-disc pl-5">
 				<li class="space-y-1">
-					<p class="text-gray-300">Frontend developer II</p>
-					<p class="text-gray-300">Full-time</p>
+					<p class="dark:text-gray-300 font-medium">Frontend developer II</p>
+					<p class="dark:text-gray-300">Full-time</p>
 					<p class="">July 2024 - Present &bull; 8 Months</p>
 				</li>
 				<li class="space-y-1">
-					<p class="text-gray-300">Frontend developer I</p>
-					<p class="text-gray-300">Full-time</p>
+					<p class="dark:text-gray-300 font-medium">Frontend developer I</p>
+					<p class="dark:text-gray-300">Full-time</p>
 					<p class="">July 2022 - July 2024 &bull; 2 Years</p>
 				</li>
 				<li class="space-y-1">
-					<p class="text-gray-300">Frontend developer</p>
-					<p class="text-gray-300">Internship</p>
+					<p class="dark:text-gray-300 font-medium">Frontend developer</p>
+					<p class="dark:text-gray-300">Internship</p>
 					<p>Jan 2022 - June 2022 &bull; 6 Months</p>
 				</li>
 			</ul>
@@ -60,10 +60,10 @@
 		<PageTitle title="Education" />
 		<div class="space-y-5">
 			<div class="space-y-1">
-				<h2 class="font-medium text-gray-300">
+				<h2 class="font-medium dark:text-gray-300">
 					Bachelor of Computer Application, Computer Science
 				</h2>
-				<p class="text-sm text-gray-300">
+				<p class="text-sm dark:text-gray-300">
 					Acharya Institutes of graduate studies bengaluru Karnataka
 				</p>
 				<p class="text-sm">Jul 2018 - Jul 2021</p>

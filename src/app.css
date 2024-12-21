@@ -22,7 +22,7 @@ body {
 	height: 0px;
 	position: absolute;
 	border: 10px solid transparent;
-	@apply lg:dark:border-r-indigo-700 lg:border-r-white  lg:translate-x-[60px] lg:translate-y-[calc(50%--4px)] transition-all;
+	@apply lg:dark:border-r-indigo-700 lg:border-r-indigo-700  lg:translate-x-[60px] lg:translate-y-[calc(50%--4px)] transition-all;
 	view-transition-name: indicator;
 }
 @layer utilities {
