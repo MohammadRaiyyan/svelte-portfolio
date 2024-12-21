@@ -6,16 +6,16 @@
 	class="p-5 space-y-10 flex flex-col justify-center items-center h-max dark:text-gray-300 w-full"
 >
 	<div class=" space-y-8 flex flex-col justify-center items-center text-center">
-		<div class="rounded-xl relative w-52 h-40">
-			<div class="absolute -top-12">
-				<img class="rounded-xl w-52 h-52" src="/Dp.jpg" alt="coverpicture" />
-			</div>
+		<div class="">
+			<img class="rounded-full w-40 h-40" src="/Dp.jpg" alt="coverpicture" />
 		</div>
+
 		<div class="space-y-4">
 			<h2 class="font-semibold text-2xl">Mohammad Raiyyan</h2>
 			<h4 class=" dark:bg-zinc-700/30 bg-zinc-50 rounded-lg inline-block px-4 py-1">
 				Frontend Developer
 			</h4>
+			<p>Hyderabad, India</p>
 			<div class="flex justify-center items-center gap-5">
 				{#each navbarFooterLinks as link (link.key)}
 					<a

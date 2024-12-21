@@ -27,10 +27,10 @@
 	}
 </script>
 
-<div class="space-y-5 p-5 h-max">
+<div class="space-y-5 p-5 overflow-auto h-screen">
 	<PageTitle title="Projects" />
 	<div
-		class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-5 max-h-[calc(100vh-160px)] overflow-hidden hover:overflow-auto py-4"
+		class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-5 py-4"
 	>
 		{#each projects as project, i (project?.title)}
 			<div
@@ -38,7 +38,7 @@
 				tabindex={i}
 				on:mouseenter={() => handleExtraInfo(project?.title)}
 				on:mouseleave={() => handleExtraInfo(null)}
-				class="w-full rounded-lg shadow-sm relative"
+				class="w-full rounded-lg shadow-sm relative col-span-1 h-max"
 				style="background-color: {`${project.colorTheme}1A`}; color: {`${project.colorTheme}`};"
 				animate:flip
 			>
@@ -81,6 +81,3 @@
 		{/each}
 	</div>
 </div>
-
-<style>
-</style>

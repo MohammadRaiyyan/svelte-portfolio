@@ -9,6 +9,24 @@ export const projects = [
 		colorTheme: '#5b21b6'
 	},
 	{
+		title: 'Vue Jobsy',
+		description:
+			'Jobsy is a modern, user-friendly job search application built with Vue.js that helps users easily find and apply for job opportunities. With an intuitive interface and responsive design, Jobsy allows users to filter and search for jobs based on various criteria such as location, job title, and company. The app features dynamic data fetching, providing real-time results from multiple job boards and career sites.',
+		image: '/images/jobsy.png',
+		githubLink: 'https://github.com/MohammadRaiyyan/jobsy',
+		link: 'https://app-jobsy.netlify.app/',
+		colorTheme: '#4338ca'
+	},
+	{
+		title: 'Svelte Todo',
+		description:
+			'The Svelte Todo app is a lightweight, fast, and intuitive task management tool that allows users to add, edit, update, delete, and persist their todos seamlessly. Built with Svelte, the app offers a smooth and responsive experience, making it easy to manage your daily tasks.',
+		image: '/images/svelte-todo.png',
+		githubLink: 'https://github.com/MohammadRaiyyan/svelte-todo',
+		link: 'https://app-svelte-todo.netlify.app/',
+		colorTheme: '#0172ad'
+	},
+	{
 		title: 'MovieFlix',
 		description:
 			'MovieFlix, developed with the dynamic duo of React and Redux, leverages the powerful Omdb API for data retrieval. With robust state management courtesy of Redux, this web application not only harnesses the efficiency of API calling but also incorporates a smart debounced search feature. Dive into a seamless experience with MovieFlix, offering intuitive search functionalities that allow users to explore movies and series effortlessly by title.',
