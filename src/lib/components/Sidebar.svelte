@@ -19,7 +19,7 @@
 			<div class="flex justify-center items-center gap-5">
 				{#each navbarFooterLinks as link (link.key)}
 					<a
-						class={`dark:bg-zinc-700/30 bg-zinc-50 flex flex-col gap-1 w-max p-2 items-center hover:text-indigo-700  transition-all duration-300 ease-in-out rounded-lg `}
+						class={`dark:bg-zinc-700/30 bg-zinc-50 flex flex-col gap-1 w-max p-2 items-center hover:text-indigo-600  transition-all duration-300 ease-in-out rounded-lg `}
 						href={link.link}
 						rel="noreferror"
 						target="_blank"

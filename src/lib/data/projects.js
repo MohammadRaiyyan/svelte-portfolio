@@ -6,7 +6,8 @@ export const projects = [
 		image: '/images/crypto.png',
 		githubLink: 'https://github.com/2raiyyan1khan/cryptoworld',
 		link: 'https://world-crypto-app.netlify.app/',
-		colorTheme: '#5b21b6'
+		colorTheme: '#5b21b6',
+		tags: ['react', 'redux', 'styled-components', 'coinranking-api']
 	},
 	{
 		title: 'Vue Jobsy',
@@ -15,7 +16,8 @@ export const projects = [
 		image: '/images/jobsy.png',
 		githubLink: 'https://github.com/MohammadRaiyyan/jobsy',
 		link: 'https://app-jobsy.netlify.app/',
-		colorTheme: '#4338ca'
+		colorTheme: '#4338ca',
+		tags: ['vue', 'vue-router', 'vuex', 'axios', 'bootstrap', 'vue-icons']
 	},
 	{
 		title: 'Svelte Todo',
@@ -24,7 +26,8 @@ export const projects = [
 		image: '/images/svelte-todo.png',
 		githubLink: 'https://github.com/MohammadRaiyyan/svelte-todo',
 		link: 'https://app-svelte-todo.netlify.app/',
-		colorTheme: '#0172ad'
+		colorTheme: '#0172ad',
+		tags: ['svelte', 'sveltekit', 'tailwindcss', 'typescript']
 	},
 	{
 		title: 'MovieFlix',
@@ -33,7 +36,8 @@ export const projects = [
 		image: '/images/movieflix.png',
 		githubLink: 'https://github.com/2raiyyan1khan/movieFlix',
 		link: 'https://movieflix-react-app.netlify.app/',
-		colorTheme: '#262144'
+		colorTheme: '#262144',
+		tags: ['react', 'redux', 'omdb-api', 'axios', 'bootstrap', 'react-icons']
 	},
 	{
 		title: 'Music Mantra',
@@ -42,7 +46,8 @@ export const projects = [
 		image: '/images/musicmuntra.png',
 		githubLink: '/',
 		link: 'https://music-muntra.netlify.app/',
-		colorTheme: '#d53175'
+		colorTheme: '#d53175',
+		tags: ['react', 'redux', 'youtube-api', 'axios', 'bootstrap', 'react-icons']
 	},
 	{
 		title: 'Store Template',
@@ -51,7 +56,8 @@ export const projects = [
 		image: '/images/jsStore.png',
 		githubLink: 'https://github.com/2raiyyan1khan/javascript-shoping-cart',
 		link: 'https://javascript-shoping-cart.netlify.app/',
-		colorTheme: '#150456'
+		colorTheme: '#150456',
+		tags: ['javascript', 'html', 'css', 'bootstrap', 'javascript-icons']
 	},
 	{
 		title: 'Image Gallery',
@@ -60,7 +66,8 @@ export const projects = [
 		image: '/images/gallery.png',
 		githubLink: 'https://github.com/2raiyyan1khan/image-gallery-using-pexels-api',
 		link: 'https://pixel-gallery.netlify.app/',
-		colorTheme: '#537651'
+		colorTheme: '#537651',
+		tags: ['javascript', 'html', 'css', 'bootstrap', 'javascript-icons']
 	},
 	{
 		title: 'Food Recipe App',
@@ -69,7 +76,8 @@ export const projects = [
 		image: '/images/foodrecipe.png',
 		githubLink: 'https://github.com/2raiyyan1khan/food-recipe',
 		link: 'https://js-food-recipe.netlify.app/',
-		colorTheme: '#8a1fea'
+		colorTheme: '#8a1fea',
+		tags: ['javascript', 'html', 'css', 'bootstrap', 'javascript-icons']
 	},
 	{
 		title: 'Musicfolio Template',
@@ -78,6 +86,7 @@ export const projects = [
 		image: '/images/musicfolio.png',
 		githubLink: 'https://github.com/2raiyyan1khan/Musicology-template-converted-from-psd',
 		link: 'https://musicology-temp.netlify.app/',
-		colorTheme: '#d56a35'
+		colorTheme: '#d56a35',
+		tags: ['javascript', 'html', 'css', 'bootstrap', 'javascript-icons']
 	}
 ];

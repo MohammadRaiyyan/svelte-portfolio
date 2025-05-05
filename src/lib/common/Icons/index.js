@@ -6,4 +6,5 @@ import Location from './Location.svelte';
 import Phone from './Phone.svelte';
 import Projects from './Projects.svelte';
 import Skills from './Skills.svelte';
-export { About, Envelop, Github, Linkedin, Location, Phone, Projects, Skills };
+import Experience from './Experience.svelte';
+export { About, Envelop, Github, Linkedin, Location, Phone, Projects, Skills, Experience };

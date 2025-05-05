@@ -6,25 +6,16 @@
 
 html {
 	font-family: 'Poppins', sans-serif;
+	scroll-behavior: smooth;
 }
 body {
 	overflow: hidden;
 }
-:root {
-	view-transition-name: none;
-}
+
 .active-nav {
-	@apply bg-indigo-700 text-white cursor-default;
+	@apply text-indigo-600 cursor-default font-bold;
 }
-.active-nav::after {
-	content: '';
-	width: 0px;
-	height: 0px;
-	position: absolute;
-	border: 10px solid transparent;
-	@apply lg:dark:border-r-indigo-700 lg:border-r-indigo-700  lg:translate-x-[60px] lg:translate-y-[calc(50%--4px)] transition-all;
-	view-transition-name: indicator;
-}
+
 @layer utilities {
 	.no-scrollbar::-webkit-scrollbar {
 		display: none;
