@@ -1,5 +1,15 @@
 export const projects = [
 	{
+		title: 'Keeper',
+		description:
+			'Keeper is a task management web app built with SolidJS, TanStack Router, TypeScript, TanStack Query, Node.js, and MongoDB. It offers features like task filtering, sorting, prioritization, and real-time updates to help users stay organized and productive.',
+		githubLink: 'https://github.com/MohammadRaiyyan/keeper-solid',
+		link: 'https://keeper-solid.netlify.app/tasks?status=All%20Status&priority=All%20Priority&sortBy=Newest&search=',
+		colorTheme: '#4338ca',
+		tags: ['solidjs', 'tanstack-router', 'typescript', 'tanstack-query', 'nodejs', 'mongodb'],
+		image: '/images/keeper.png'
+	},
+	{
 		title: 'Cryptoworld',
 		description:
 			"CryptoWorld, meticulously crafted with React, Redux, and Styled-Components, seamlessly integrates with the 'Coinranking API' to fetch real-time cryptocurrency data. Our web application serves as a comprehensive hub, offering users a centralized platform to access up-to-the-minute cryptocurrency prices and breaking news.",
@@ -7,7 +17,7 @@ export const projects = [
 		githubLink: 'https://github.com/2raiyyan1khan/cryptoworld',
 		link: 'https://world-crypto-app.netlify.app/',
 		colorTheme: '#5b21b6',
-		tags: ['react', 'redux', 'styled-components', 'coinranking-api']
+		tags: ['react', 'redux', 'styled-components', 'coinranking-api', 'tailwindcss']
 	},
 	{
 		title: 'Vue Jobsy',
@@ -17,7 +27,7 @@ export const projects = [
 		githubLink: 'https://github.com/MohammadRaiyyan/jobsy',
 		link: 'https://app-jobsy.netlify.app/',
 		colorTheme: '#4338ca',
-		tags: ['vue', 'vue-router', 'vuex', 'axios', 'bootstrap', 'vue-icons']
+		tags: ['vue', 'vue-router', 'vuex', 'axios', 'tailwindcss']
 	},
 	{
 		title: 'Svelte Todo',
@@ -37,7 +47,7 @@ export const projects = [
 		githubLink: 'https://github.com/2raiyyan1khan/movieFlix',
 		link: 'https://movieflix-react-app.netlify.app/',
 		colorTheme: '#262144',
-		tags: ['react', 'redux', 'omdb-api', 'axios', 'bootstrap', 'react-icons']
+		tags: ['react', 'omdb-api', 'scss']
 	},
 	{
 		title: 'Music Mantra',
@@ -47,7 +57,7 @@ export const projects = [
 		githubLink: '/',
 		link: 'https://music-muntra.netlify.app/',
 		colorTheme: '#d53175',
-		tags: ['react', 'redux', 'youtube-api', 'axios', 'bootstrap', 'react-icons']
+		tags: ['react', 'redux', 'youtube-api', 'axios', 'tailwindcss']
 	},
 	{
 		title: 'Store Template',
@@ -57,7 +67,7 @@ export const projects = [
 		githubLink: 'https://github.com/2raiyyan1khan/javascript-shoping-cart',
 		link: 'https://javascript-shoping-cart.netlify.app/',
 		colorTheme: '#150456',
-		tags: ['javascript', 'html', 'css', 'bootstrap', 'javascript-icons']
+		tags: ['javascript', 'html', 'css']
 	},
 	{
 		title: 'Image Gallery',
@@ -67,7 +77,7 @@ export const projects = [
 		githubLink: 'https://github.com/2raiyyan1khan/image-gallery-using-pexels-api',
 		link: 'https://pixel-gallery.netlify.app/',
 		colorTheme: '#537651',
-		tags: ['javascript', 'html', 'css', 'bootstrap', 'javascript-icons']
+		tags: ['javascript', 'html', 'css']
 	},
 	{
 		title: 'Food Recipe App',
@@ -77,7 +87,7 @@ export const projects = [
 		githubLink: 'https://github.com/2raiyyan1khan/food-recipe',
 		link: 'https://js-food-recipe.netlify.app/',
 		colorTheme: '#8a1fea',
-		tags: ['javascript', 'html', 'css', 'bootstrap', 'javascript-icons']
+		tags: ['javascript', 'html', 'css']
 	},
 	{
 		title: 'Musicfolio Template',
@@ -87,6 +97,6 @@ export const projects = [
 		githubLink: 'https://github.com/2raiyyan1khan/Musicology-template-converted-from-psd',
 		link: 'https://musicology-temp.netlify.app/',
 		colorTheme: '#d56a35',
-		tags: ['javascript', 'html', 'css', 'bootstrap', 'javascript-icons']
+		tags: ['javascript', 'html', 'css']
 	}
 ];

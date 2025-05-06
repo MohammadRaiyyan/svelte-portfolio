@@ -12,8 +12,8 @@
 		class:active-nav={$page.url.pathname === link.link}
 		title={link.name}
 	>
-		<svelte:component this={link.icon} />
-		<span class="hidden sm:inline-block">{link.name}</span>
+		<span class="text-sm inline-block"><svelte:component this={link.icon} /></span>
+		<span class="hidden sm:inline-block transition-all duration-300 ease-in-out">{link.name}</span>
 	</a>
 {/each}
 

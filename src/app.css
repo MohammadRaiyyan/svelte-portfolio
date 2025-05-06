@@ -9,9 +9,8 @@ html {
 	scroll-behavior: smooth;
 }
 body {
-	overflow: hidden;
+	@apply bg-black;
 }
-
 .active-nav {
 	@apply text-indigo-600 cursor-default font-bold;
 }

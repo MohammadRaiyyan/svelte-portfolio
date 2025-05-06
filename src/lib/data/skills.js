@@ -1,76 +1,64 @@
 export const Skills = [
-  {
-    title: 'Frontend',
-    subtitle: 'Client-side technologies',
-    skills: [
-      {
-        name: 'HTML',
-        icon: 'html',
-		colorTheme: '#e34c26'
-      },
-      {
-        name: 'CSS',
-        icon: 'css',
-		colorTheme: '#2965f1'
-      },
-      {
-        name: 'Tailwind CSS',
-        icon: 'tailwind',
-		colorTheme: '#38b2ac'
-      },
-      {
-        name: 'JavaScript',
-       icon: 'javascript',
-		colorTheme: '#f0db4f'
-      },
-      {
-        name: 'TypeScript',
-icon: 'typescript',
-		colorTheme: '#3178c6' 
-		},
-	  {
-		name: 'React.js',
-		icon: 'react',
-		colorTheme: '#00D8FF' // React.js color
+	{
+		title: 'Frontend',
+		subtitle: 'Client-side technologies',
+		skills: [
+			{ name: 'HTML', icon: 'html', colorTheme: '#e34c26' },
+			{ name: 'CSS', icon: 'css', colorTheme: '#2965f1' },
+			{ name: 'Tailwind CSS', icon: 'tailwind', colorTheme: '#38b2ac' },
+			{ name: 'JavaScript', icon: 'javascript', colorTheme: '#f0db4f' },
+			{ name: 'TypeScript', icon: 'typescript', colorTheme: '#3178c6' },
+			{ name: 'React.js', icon: 'react', colorTheme: '#00D8FF' },
+			{ name: 'Next.js', icon: 'next', colorTheme: '#000000' },
+			{ name: 'Svelte', icon: 'svelte', colorTheme: '#ff3e00' },
+			{ name: 'Redux', icon: 'redux', colorTheme: '#764abc' },
+			{ name: 'Zustand', icon: 'zustand', colorTheme: '#000000' },
+			{ name: 'Context API', icon: 'context', colorTheme: '#61dafb' }
+		]
 	},
 	{
-		name: 'Svelte',
-		icon: 'svelte',
-		colorTheme: '#ff3e00' // Svelte color
+		title: 'Backend',
+		subtitle: 'Server-side technologies',
+		skills: [
+			{ name: 'Node.js', icon: 'node', colorTheme: '#339933' },
+			{ name: 'Python', icon: 'python', colorTheme: '#306998' }
+		]
 	},
 	{
-    name: 'Redux',
-    icon:"redux",
-		colorTheme: '#764abc' // Redux color
+		title: 'Database',
+		subtitle: 'Database systems',
+		skills: [
+			{ name: 'MongoDB', icon: 'mongo', colorTheme: '#47A248' },
+			{ name: 'PostgreSQL', icon: 'postgress', colorTheme: '#336791' }
+		]
 	},
-	// {
-	// 	name: 'Git',
-	// 	icon: '<?xml version="1.0" ?><svg fill="#f05032" style="width:30px; height:30px" enable-background="new 0 0 128 128" id="Social_Icons" version="1.1" viewBox="0 0 128 128" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="_x31__stroke"><g id="Github_1_"><rect clip-rule="evenodd" fill="none" fill-rule="evenodd" height="128" width="128"/><path clip-rule="evenodd" d="M63.996,1.333C28.656,1.333,0,30.099,0,65.591    c0,28.384,18.336,52.467,43.772,60.965c3.2,0.59,4.368-1.394,4.368-3.096c0-1.526-0.056-5.566-0.088-10.927    c-17.804,3.883-21.56-8.614-21.56-8.614c-2.908-7.421-7.104-9.397-7.104-9.397c-5.812-3.988,0.44-3.907,0.44-3.907    c6.42,0.454,9.8,6.622,9.8,6.622c5.712,9.819,14.98,6.984,18.628,5.337c0.58-4.152,2.236-6.984,4.064-8.59    c-14.212-1.622-29.152-7.132-29.152-31.753c0-7.016,2.492-12.75,6.588-17.244c-0.66-1.626-2.856-8.156,0.624-17.003    c0,0,5.376-1.727,17.6,6.586c5.108-1.426,10.58-2.136,16.024-2.165c5.436,0.028,10.912,0.739,16.024,2.165    c12.216-8.313,17.58-6.586,17.58-6.586c3.492,8.847,1.296,15.377,0.636,17.003c4.104,4.494,6.58,10.228,6.58,17.244    c0,24.681-14.964,30.115-29.22,31.705c2.296,1.984,4.344,5.903,4.344,11.899c0,8.59-0.08,15.517-0.08,17.626    c0,1.719,1.152,3.719,4.4,3.088C109.68,118.034,128,93.967,128,65.591C128,30.099,99.344,1.333,63.996,1.333" fill="#f05032" fill-rule="evenodd" id="Github"/></g></g></svg>',
-	// 	colorTheme: '#f05032' // Git color
-	// }
-    ]
-  },
-  {
-    title: 'Backend',
-    subtitle: 'Server-side technologies',
-    skills: [
-      {
-        name: 'Node.js',
-        icon: 'node',
-        colorTheme: '#339933'
-      },
-      {
-        name: 'MongoDB',
-        icon: 'mongo',
-        colorTheme: '#339933'
-      },
-    
-      {
-        name: "Python",
-        icon:"python",
-        colorTheme: '#339933'
-      },
-     
-    ]
-  }
+	{
+		title: 'Visualization Libraries',
+		subtitle: 'Graph & charting libraries',
+		skills: [
+			{ name: 'D3.js', icon: 'd3', colorTheme: '#f9a03c' },
+			{ name: 'Chart.js', icon: 'chartjs', colorTheme: '#ff6384' },
+			{ name: 'Recharts', icon: 'recharts', colorTheme: '#8884d8' },
+			{ name: 'ApexCharts', icon: 'apexcharts', colorTheme: '#00E396' }
+		]
+	},
+
+	{
+		title: 'Tools & DevOps',
+		subtitle: 'Development, CI/CD, design tools',
+		skills: [
+			{ name: 'Docker', colorTheme: '#0db7ed' },
+			{ name: 'GitHub ', icon: 'github-actions', colorTheme: '#2088FF' },
+			{ name: 'Webpack', icon: 'webpack', colorTheme: '#8DD6F9' },
+			{ name: 'Vite', icon: 'vite', colorTheme: '#646CFF' }
+		]
+	},
+	{
+		title: 'Specializations',
+		subtitle: 'Focused domains & strengths',
+		skills: [
+			{ name: 'Data Visualization', colorTheme: '#FACC15' },
+			{ name: 'AI Integration', colorTheme: '#7c3aed' }
+		]
+	}
 ];

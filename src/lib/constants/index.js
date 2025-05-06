@@ -2,7 +2,7 @@ import { About, Github, Linkedin, Projects, Skills, Experience } from '$lib/comm
 
 export const navbarHeaderLinks = [
 	{ name: 'About', link: '#about', key: 'about', icon: About },
-	{ name: 'My Stack', link: '#skills', key: 'skills', icon: Skills },
+	{ name: 'Stack', link: '#skills', key: 'skills', icon: Skills },
 	{ name: 'Experience', link: '#experience', key: 'experience', icon: Experience },
 	{ name: 'Projects', link: '#projects', key: 'projects', icon: Projects }
 ];
@@ -22,6 +22,3 @@ export const navbarFooterLinks = [
 		icon: Github
 	}
 ];
-
-
-	

@@ -5,19 +5,11 @@
 </script>
 
 <div
-	class="relative overflow-auto main bg-light-pattern-gradient-radial dark:bg-dark-pattern-gradient-radial dark:text-gray-400 h-screen h-max py-2.5 sm:px-5 px-2"
+	class=" bg-[url('/images/new-bg.svg')] bg-top dark:bg-[url('/images/new-bg-dark.svg')] dark:text-gray-400"
 >
-	<div class="sticky top-0 z-50">
-		<Navbar />
-	</div>
-	<div class="container mx-auto max-w-6xl">
+	<Navbar />
+	<div class="backdrop-blur-3xl px-5 lg:px-0">
 		<slot />
+		<Footer />
 	</div>
-	<Footer />
 </div>
-
-<style>
-	.main {
-		background-size: 10px 10px;
-	}
-</style>
