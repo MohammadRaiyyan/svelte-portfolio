@@ -89,14 +89,14 @@ export const projects = [
 		colorTheme: '#8a1fea',
 		tags: ['javascript', 'html', 'css']
 	},
-	{
-		title: 'Musicfolio Template',
-		description:
-			'This template has been meticulously transformed from a PSD file sourced from freepik.com. The conversion process ensures a seamless transition from design to implementation, maintaining the visual integrity of the original file',
-		image: '/images/musicfolio.png',
-		githubLink: 'https://github.com/2raiyyan1khan/Musicology-template-converted-from-psd',
-		link: 'https://musicology-temp.netlify.app/',
-		colorTheme: '#d56a35',
-		tags: ['javascript', 'html', 'css']
-	}
+	// {
+	// 	title: 'Musicfolio Template',
+	// 	description:
+	// 		'This template has been meticulously transformed from a PSD file sourced from freepik.com. The conversion process ensures a seamless transition from design to implementation, maintaining the visual integrity of the original file',
+	// 	image: '/images/musicfolio.png',
+	// 	githubLink: 'https://github.com/2raiyyan1khan/Musicology-template-converted-from-psd',
+	// 	link: 'https://musicology-temp.netlify.app/',
+	// 	colorTheme: '#d56a35',
+	// 	tags: ['javascript', 'html', 'css']
+	// }
 ];
