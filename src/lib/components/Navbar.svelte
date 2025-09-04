@@ -35,7 +35,8 @@
 			<NavLinks />
 		</div>
 		<div class="flex gap-2 items-center">
-			<a href="www.linkedin.com/in/m-raiyyan" rel="noopener noreferrer" target="_blank">
+			<!-- GitHub -->
+			<a href="https://github.com/MohammadRaiyyan" rel="noopener noreferrer" target="_blank">
 				<button
 					class="items-center gap-2 p-1 rounded-xl bg-white/30 backdrop-blur-md shadow-sm hover:shadow-lg hover:scale-105 border border-gray-200"
 					title="GitHub"
@@ -43,10 +44,12 @@
 					<GithubIcon />
 				</button>
 			</a>
-			<a href="https://github.com/MohammadRaiyyan" rel="noopener noreferrer" target="_blank">
+
+			<!-- LinkedIn -->
+			<a href="https://www.linkedin.com/in/m-raiyyan" rel="noopener noreferrer" target="_blank">
 				<button
 					class="items-center gap-2 p-1 rounded-xl bg-white/30 backdrop-blur-md shadow-sm hover:shadow-lg hover:scale-105 border border-gray-200"
-					title="Linkedin"
+					title="LinkedIn"
 				>
 					<Linkedin />
 				</button>
