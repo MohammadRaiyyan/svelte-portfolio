@@ -1,36 +1,31 @@
-<div class="space-y-5 h-[100dvh] mt-16 md:my-0 flex items-start justify-center flex-col" id="about">
-	<h1 class="md:text-6xl text-4xl font-extrabold uppercase">
-		<span class="text-indigo-600">Frontend</span>
-		<span class="dark:text-gray-300">Developer</span>
-	</h1>
-	<h4 class="md:text-2xl text-lg font-bold dark:text-gray-300">Hi, I'm Mohammad Raiyyan</h4>
-	<div class="dark:text-gray-300 md:text-2xl text-lg leading-8 tracking-wider space-y-5">
+<script>
+	import PageTitle from '$lib/common/PageTitle/index.svelte';
+</script>
+
+<section class="py-16 md:my-0 flex items-start justify-center flex-col" id="about">
+	<PageTitle title="About me" />
+	<div class="text-gray-600 md:text-2xl text-lg leading-8 tracking-wider space-y-5">
 		<p>
-			Frontend Developer specializing in AI-driven applications and advanced data visualization.
-			With 3+ years of expertise building sophisticated web interfaces, I excel at:
+			Frontend Developer with 3+ years of experience building scalable dashboards and AI-driven web
+			applications. I focus on creating smooth, user-friendly experiences while keeping performance
+			and scalability in mind.
 		</p>
+
+		<p>Some of the areas I work on:</p>
 		<ul class="space-y-2 list-disc pl-10 xs:text-sm md:text-inherit">
-			<li>Architecting robust API integrations between frontend applications and AI services</li>
-			<li>Implementing complex data visualization with interactive charts and dynamic graphs</li>
-
-			<li>Creating intuitive interfaces that make advanced AI capabilities accessible to users</li>
+			<li>Designing and integrating APIs that connect applications with AI and data services</li>
+			<li>Building interactive dashboards with real-time charts and analytics</li>
+			<li>Crafting interfaces that make complex technology simple and accessible</li>
 		</ul>
+
 		<p class="md:block hidden">
-			I bridge the technical gap between cutting-edge AI technology and exceptional user experience,
-			delivering solutions that transform complex data into actionable insights.
+			My goal is to bridge the gap between modern technology and real-world usability — ensuring
+			that solutions are not only functional, but also intuitive to use.
 		</p>
 
 		<p class="md:block hidden">
-			Always learning and evolving with industry trends, I'm ready to bring your next innovative
-			digital project to life.
+			Outside of work, I enjoy experimenting with new tools and full-stack side projects using
+			React, Java, Spring Boot, and PostgreSQL — exploring where design meets technology.
 		</p>
-		<div>
-			<a href="#projects">
-				<button
-					class="bg-indigo-600 text-white px-4 md:py-4 py-2 rounded-lg uppercase font-bold leading-8 md:text-xl text-sm mt-8"
-					>View My Work</button
-				>
-			</a>
-		</div>
 	</div>
-</div>
+</section>

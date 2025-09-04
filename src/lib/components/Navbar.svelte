@@ -1,5 +1,5 @@
 <script>
-	import { onMount, onDestroy } from 'svelte';
+	import { onDestroy, onMount } from 'svelte';
 	import { browser } from '$app/environment';
 	import { NavLinks } from '$lib';
 	import GithubIcon from '$lib/common/Icons/Github.svelte';
@@ -27,24 +27,30 @@
 </script>
 
 <header
-	class="h-16 flex items-center w-full fixed top-0 left-0 z-50 transition-all duration-300"
+	class="rounded-xl border-gray-200 h-16 flex items-center w-full max-w-6xl mx-auto sticky top-3 left-0 right-0 z-50 transition-all duration-300"
 	class:scrolled={isScrolled}
 >
-	<nav class="container rounded-lg mx-auto px-4 max-w-6xl flex justify-between gap-2 w-full">
+	<nav class="container rounded-lg px-4 flex justify-between gap-2 w-full">
 		<div class="flex gap-2 items-center flex-1">
 			<NavLinks />
 		</div>
 		<div class="flex gap-2 items-center">
-			<button
-				class="rounded-md p-2 hover:bg-indigo-800 hover:text-indigo-50 transition-all duration-300 ease-in-out"
-			>
-				<GithubIcon />
-			</button>
-			<button
-				class="rounded-md p-2 hover:bg-indigo-800 hover:text-indigo-50 transition-all duration-300 ease-in-out"
-			>
-				<Linkedin />
-			</button>
+			<a href="www.linkedin.com/in/m-raiyyan" rel="noopener noreferrer" target="_blank">
+				<button
+					class="items-center gap-2 p-1 rounded-xl bg-white/30 backdrop-blur-md shadow-sm hover:shadow-lg hover:scale-105 border border-gray-200"
+					title="GitHub"
+				>
+					<GithubIcon />
+				</button>
+			</a>
+			<a href="https://github.com/MohammadRaiyyan" rel="noopener noreferrer" target="_blank">
+				<button
+					class="items-center gap-2 p-1 rounded-xl bg-white/30 backdrop-blur-md shadow-sm hover:shadow-lg hover:scale-105 border border-gray-200"
+					title="Linkedin"
+				>
+					<Linkedin />
+				</button>
+			</a>
 		</div>
 	</nav>
 </header>
@@ -52,6 +58,6 @@
 <style>
 	/* Optional shadow */
 	.scrolled {
-		@apply bg-black/60 backdrop-blur-2xl shadow-lg;
+		@apply bg-white/50 backdrop-blur-md shadow-lg;
 	}
 </style>

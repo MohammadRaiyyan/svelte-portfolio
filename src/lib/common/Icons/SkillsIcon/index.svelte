@@ -23,6 +23,8 @@
 
 	import ChartIcon from './ChartIcon.svelte';
 	import Projects from '../Projects.svelte';
+	import SpringIcon from '$lib/common/Icons/SkillsIcon/SpringIcon.svelte';
+	import JavaIcon from '$lib/common/Icons/SkillsIcon/JavaIcon.svelte';
 
 	export let icon;
 </script>
@@ -41,10 +43,10 @@
 {#if icon === 'context' || icon === 'zustand'} <ContextIcon /> {/if}
 {#if icon === 'next'} <NextIcon /> {/if}
 
-{#if icon === 'python'} <PythonIcon /> {/if}
+{#if icon === 'java'} <JavaIcon /> {/if}
 {#if icon === 'go'} <GoIcon /> {/if}
 {#if icon === 'postgress'} <PostgressIcon /> {/if}
-{#if icon === 'node'} <NodeIcon /> {/if}
+{#if icon === 'spring'} <SpringIcon /> {/if}
 {#if icon === 'mongo'} <MongoIcon /> {/if}
 
 <!-- Visualization -->

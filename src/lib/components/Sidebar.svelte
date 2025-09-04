@@ -7,7 +7,7 @@
 >
 	<div class=" space-y-8 flex flex-col justify-center items-center text-center">
 		<div class="">
-			<img class="rounded-full w-40 h-40" src="/Dp.jpg" alt="coverpicture" />
+			<img alt="coverpicture" class="rounded-full w-40 h-40" src="/Dp.jpg" />
 		</div>
 
 		<div class="space-y-4">
