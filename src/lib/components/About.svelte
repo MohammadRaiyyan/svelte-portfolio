@@ -4,7 +4,7 @@
 
 <section class="py-8 md:py-16 flex items-start justify-center flex-col" id="about">
 	<PageTitle title="About me" />
-	<div class="text-gray-600 md:text-2xl text-lg  space-y-5">
+	<div class="text-gray-600 md:text-xl text-lg  space-y-5">
 		<p>
 			Frontend Developer with 3+ years of experience building scalable dashboards and AI-driven web
 			applications. I focus on creating smooth, user-friendly experiences while keeping performance
