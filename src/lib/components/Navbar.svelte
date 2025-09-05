@@ -61,6 +61,6 @@
 <style>
 	/* Optional shadow */
 	.scrolled {
-		@apply bg-white/50 backdrop-blur-md shadow-lg;
+		@apply bg-white/50 backdrop-blur-md shadow-md;
 	}
 </style>
