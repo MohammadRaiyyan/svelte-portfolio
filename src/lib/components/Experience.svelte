@@ -37,10 +37,10 @@
 				>
 					<!-- Icon -->
 					<div
-						class="absolute left-0 top-2 w-12 h-12 flex items-center justify-center rounded-full bg-white shadow-lg border border-indigo-100"
+						class="absolute left-1.5 top-2 w-10 h-10 flex items-center justify-center rounded-full bg-white shadow-lg border border-indigo-100"
 					>
 						<svg
-							class="w-6 h-6 text-indigo-500"
+							class="w-5 h-5 text-indigo-500"
 							xmlns="http://www.w3.org/2000/svg"
 							width="24"
 							height="24"

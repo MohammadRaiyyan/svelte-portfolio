@@ -10,7 +10,7 @@
 	<div class="relative max-w-3xl mx-auto">
 		<!-- vertical timeline line -->
 		<div
-			class="absolute left-6 top-0 h-full w-1 bg-gradient-to-b from-indigo-400 via-pink-400 to-purple-400"
+			class="absolute left-6 top-0 h-full w-1 bg-gradient-to-b from-indigo-400 via-pink-400 to-purple-400 rounded-full"
 		/>
 
 		<div class="space-y-12">
@@ -18,7 +18,7 @@
 				<div class="relative pl-16">
 					<!-- marker dot -->
 					<div
-						class="absolute left-0 top-2 w-12 h-12 flex items-center justify-center rounded-full bg-white shadow-lg border border-indigo-100"
+						class="absolute left-1.5 top-2 w-10 h-10 flex items-center justify-center rounded-full bg-white shadow-lg border border-indigo-100"
 					>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -30,7 +30,7 @@
 							stroke-width="2"
 							stroke-linecap="round"
 							stroke-linejoin="round"
-							class="w-6 h-6 text-indigo-500"
+							class="w-5 h-5 text-indigo-500"
 						>
 							<path d="m16 18 6-6-6-6" />
 							<path d="m8 6-6 6 6 6" />
