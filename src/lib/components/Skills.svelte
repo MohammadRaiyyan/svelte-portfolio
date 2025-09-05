@@ -4,7 +4,7 @@
 	import SkillsIcon from '$lib/common/Icons/SkillsIcon/index.svelte';
 </script>
 
-<section class="py-16" id="skills">
+<section class="py-8 md:py-16" id="skills">
 	<PageTitle title="Skills" />
 
 	<div class="relative max-w-3xl mx-auto">
@@ -38,7 +38,7 @@
 					</div>
 					<!-- Skills list -->
 					<div
-						class="bg-white/30 backdrop-blur-md p-6 rounded-2xl shadow-md border border-gray-100 hover:shadow-lg transition"
+						class="bg-white/30 backdrop-blur-md md:p-6 p-4 rounded-2xl shadow-md border border-gray-100 hover:shadow-lg transition"
 					>
 						<h3 class="text-xl font-semibold text-gray-700 mb-4">{skill.title}</h3>
 

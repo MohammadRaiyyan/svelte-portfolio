@@ -27,10 +27,10 @@
 </script>
 
 <header
-	class="rounded-xl border-gray-200 h-16 flex items-center w-full max-w-6xl mx-auto sticky top-3 left-0 right-0 z-50 transition-all duration-300"
+	class="rounded-xl md:h-16 h-14 flex items-center md:max-w-6xl w-[97%] mx-auto sticky top-3 left-0 right-0 z-50 transition-all duration-300"
 	class:scrolled={isScrolled}
 >
-	<nav class="container rounded-lg px-4 flex justify-between gap-2 w-full">
+	<nav class=" md:px-4 px-2 flex justify-between gap-2 w-full">
 		<div class="flex gap-2 items-center flex-1">
 			<NavLinks />
 		</div>

@@ -20,7 +20,7 @@
 	];
 </script>
 
-<section class="py-16" id="experience">
+<section class="py-8 md:py-16" id="experience">
 	<PageTitle title="Experience" />
 
 	<div class="relative max-w-3xl mx-auto">
@@ -60,7 +60,7 @@
 
 					<!-- Card -->
 					<div
-						class="bg-white/30 backdrop-blur-md p-6 rounded-2xl shadow-md border border-gray-100 hover:shadow-lg transition"
+						class="bg-white/30 backdrop-blur-md md:p-6 p-4 rounded-2xl shadow-md border border-gray-100 hover:shadow-lg transition"
 					>
 						<h3 class="text-xl font-semibold text-gray-700">{exp.role}</h3>
 						<p class="text-indigo-600 font-medium">{exp.company}</p>

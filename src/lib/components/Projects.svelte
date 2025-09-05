@@ -6,7 +6,7 @@
 	import IconEye from '$lib/common/Icons/IconEye.svelte';
 </script>
 
-<section class="py-16" id="projects">
+<section class="py-8 md:py-16" id="projects">
 	<PageTitle title="Projects" />
 
 	<div class="columns-1 sm:columns-2 md:columns-2 lg:columns-3 gap-6 space-y-6">

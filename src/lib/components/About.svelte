@@ -2,7 +2,7 @@
 	import PageTitle from '$lib/common/PageTitle/index.svelte';
 </script>
 
-<section class="py-16 md:my-0 flex items-start justify-center flex-col" id="about">
+<section class="py-8 md:py-16 flex items-start justify-center flex-col" id="about">
 	<PageTitle title="About me" />
 	<div class="text-gray-600 md:text-2xl text-lg leading-8 tracking-wider space-y-5">
 		<p>
