@@ -6,7 +6,7 @@
 
 {#each navbarHeaderLinks as link, i (link.key)}
 	<a
-		class="group flex items-center gap-2 px-4 py-2 rounded-xl bg-white/30 backdrop-blur-md
+		class="group flex items-center gap-2 px-4 py-2 rounded-xl bg-orange-50/30 backdrop-blur-md
 								shadow-sm hover:shadow-lg hover:scale-105 transition border border-gray-200"
 		style="animation: fadeIn 0.4s ease forwards; animation-delay: {i * 80}ms"
 		href={link.link}
@@ -16,7 +16,7 @@
 	>
 		<span class="text-sm inline-block"><svelte:component this={link.icon} /></span>
 		<span
-			class="hidden sm:inline-block duration-300 ease-in-out group-hover:text-indigo-600 transition"
+			class="hidden sm:inline-block duration-300 ease-in-out group-hover:text-orange-600 transition"
 			>{link.name}</span
 		>
 	</a>
@@ -26,7 +26,7 @@
 <div class="space-y-1">
 	{#each navbarFooterLinks as link (link.key)}
 		<a
-			class="flex flex-col gap-1 w-20 p-2 items-center hover:bg-indigo-600 hover:text-white transition-all duration-300 ease-in-out rounded-lg"
+			class="flex flex-col gap-1 w-20 p-2 items-center hover:bg-orange-600 hover:text-white transition-all duration-300 ease-in-out rounded-lg"
 			href={link.link}
 			rel="noreferror"
 			target="_blank"

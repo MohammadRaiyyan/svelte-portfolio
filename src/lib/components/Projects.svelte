@@ -14,7 +14,7 @@
 			<div
 				role="button"
 				tabindex={i}
-				class="break-inside-avoid border border-gray-200 w-full rounded-2xl shadow-md bg-white/30 backdrop-blur-md relative group/card hover:shadow-lg transition mb-6"
+				class="break-inside-avoid overflow-hidden  w-full rounded-2xl shadow-md bg-orange-50/30 backdrop-blur-md relative group/card hover:shadow-lg transition mb-6"
 			>
 				<img
 					class="object-fill w-full h-[200px] rounded-t-lg"
@@ -57,7 +57,7 @@
 					>
 						{#each project.tags as tag}
 							<span
-								class="uppercase border px-2 py-0.5 rounded-2xl bg-white/30 border-gray-200 flex"
+								class="uppercase border px-2 py-0.5 rounded-2xl bg-orange-50/30 border-gray-200 flex"
 								>{tag}</span
 							>
 						{/each}
