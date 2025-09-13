@@ -29,6 +29,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"prismjs": "^1.30.0",
 		"tailwindcss-filters": "^3.0.0"
 	}
 }

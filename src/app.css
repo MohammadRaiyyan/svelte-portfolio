@@ -8,7 +8,7 @@ html {
 	scroll-behavior: smooth;
 }
 body {
-	@apply scroll-mt-8;
+	@apply scroll-mt-8 tracking-wide;
 }
 .active-nav {
 	@apply text-orange-600 cursor-default font-bold;

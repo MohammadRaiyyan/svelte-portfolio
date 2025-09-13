@@ -7,7 +7,7 @@
 	import ArrowDown from '$lib/components/ArrowDown.svelte';
 </script>
 
-<div class="container mx-auto max-w-6xl px-3 lg:p-0">
+<div class="container mx-auto max-w-7xl px-3 lg:p-0">
 	<Hero />
 	<About />
 	<Experience />
