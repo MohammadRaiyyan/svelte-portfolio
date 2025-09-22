@@ -26,7 +26,7 @@
 	<div class="relative max-w-3xl mx-auto">
 		<!-- Timeline line -->
 		<div
-			class="absolute left-6 top-0 bottom-0 w-1 bg-gradient-to-b from-rose-400 via-orange-400 to-amber-500 rounded-full"
+			class="absolute left-6 top-0 bottom-0 w-1 bg-gradient-to-b from-cyan-500 via-blue-600 to-indigo-700 rounded-full"
 		/>
 
 		<div class="space-y-12">
@@ -37,10 +37,10 @@
 				>
 					<!-- Icon -->
 					<div
-						class="absolute left-1.5 top-2 w-10 h-10 flex items-center justify-center rounded-full bg-white shadow-lg border border-orange-100"
+						class="absolute left-1.5 top-2 w-10 h-10 flex items-center justify-center rounded-full bg-white shadow-lg border border-blue-100"
 					>
 						<svg
-							class="w-5 h-5 text-orange-500"
+							class="w-5 h-5 text-blue-500"
 							xmlns="http://www.w3.org/2000/svg"
 							width="24"
 							height="24"
@@ -60,10 +60,10 @@
 
 					<!-- Card -->
 					<div
-						class="bg-orange-50/30 backdrop-blur-md md:p-6 p-4 rounded-2xl shadow-md border border-gray-100 hover:shadow-lg transition"
+						class="bg-blue-50/30 backdrop-blur-md md:p-6 p-4 rounded-2xl shadow-md border border-gray-100 hover:shadow-lg transition"
 					>
 						<h3 class="text-xl font-semibold text-gray-700">{exp.role}</h3>
-						<p class="text-orange-600 font-medium">{exp.company}</p>
+						<p class="text-blue-600 font-medium">{exp.company}</p>
 						<p class="text-gray-500 text-sm mt-1">{exp.duration}</p>
 					</div>
 				</div>

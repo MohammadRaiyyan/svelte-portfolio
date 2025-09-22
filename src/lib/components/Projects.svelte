@@ -1,9 +1,9 @@
 <script lang="js">
 	import PageTitle from '$lib/common/PageTitle/index.svelte';
 
-	import { projects } from '$lib/data/projects';
 	import GithubIcon from '$lib/common/Icons/Github.svelte';
 	import IconEye from '$lib/common/Icons/IconEye.svelte';
+	import { projects } from '$lib/data/projects';
 </script>
 
 <section class="relative py-8 md:py-16" id="projects">
@@ -14,7 +14,7 @@
 			<div
 				role="button"
 				tabindex={i}
-				class="break-inside-avoid overflow-hidden w-full rounded-2xl shadow-md bg-orange-50/30 backdrop-blur-md relative group/card hover:shadow-lg transition mb-6"
+				class="break-inside-avoid overflow-hidden w-full rounded-2xl shadow-md bg-blue-50/30 backdrop-blur-md relative group/card hover:shadow-lg transition mb-6"
 			>
 				<img
 					class="object-fill w-full h-[200px] rounded-t-lg"
@@ -57,7 +57,7 @@
 					>
 						{#each project.tags as tag}
 							<span
-								class="uppercase border px-2 py-0.5 rounded-2xl bg-orange-50/30 border-gray-200 flex"
+								class="uppercase border px-2 py-0.5 rounded-2xl bg-blue-50/30 border-gray-200 flex"
 								>{tag}</span
 							>
 						{/each}

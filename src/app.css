@@ -11,7 +11,7 @@ body {
 	@apply scroll-mt-8 tracking-wide;
 }
 .active-nav {
-	@apply text-orange-600 cursor-default font-bold;
+	@apply text-blue-600 cursor-default font-bold;
 }
 section:not(:first-child) {
 	scroll-margin-top: 50px;
