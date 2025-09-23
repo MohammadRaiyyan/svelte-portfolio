@@ -46,7 +46,7 @@
 	<div class="fixed bottom-5 inset-x-0 flex justify-center">
 		<button
 			on:click={scrollToNextSection}
-			class="text-gray-700 bg-white/70 backdrop-blur-md p-3 rounded-full shadow-lg hover:scale-110 transition transform animate-bounce"
+			class="text-gray-700 bg-white/70 backdrop-blur-md p-3 rounded shadow-lg hover:scale-110 transition transform animate-bounce"
 			aria-label="Scroll down"
 		>
 			<svg

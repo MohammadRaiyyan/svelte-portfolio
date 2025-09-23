@@ -6,7 +6,7 @@
 
 {#each navbarHeaderLinks as link, i (link.key)}
 	<a
-		class="group flex items-center gap-2 px-4 py-2 rounded-xl bg-blue-50/30 backdrop-blur-md
+		class="group flex items-center gap-2 p-1 md:px-3 rounded bg-blue-50/30 backdrop-blur-md
 								shadow-sm hover:shadow-lg hover:scale-105 transition border border-gray-200"
 		style="animation: fadeIn 0.4s ease forwards; animation-delay: {i * 80}ms"
 		href={link.link}
@@ -26,7 +26,7 @@
 <div class="space-y-1">
 	{#each navbarFooterLinks as link (link.key)}
 		<a
-			class="flex flex-col gap-1 w-20 p-2 items-center hover:bg-blue-600 hover:text-white transition-all duration-300 ease-in-out rounded-lg"
+			class="flex flex-col gap-1 w-20 p-2 items-center hover:bg-blue-600 hover:text-white transition-all duration-300 ease-in-out rounded"
 			href={link.link}
 			rel="noreferror"
 			target="_blank"

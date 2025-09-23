@@ -1,9 +1,8 @@
 <script>
 	import { browser } from '$app/environment';
 	import { NavLinks } from '$lib';
-	import GithubIcon from '$lib/common/Icons/Github.svelte';
-	import Linkedin from '$lib/common/Icons/Linkedin.svelte';
 	import { onDestroy, onMount } from 'svelte';
+	import ContactLink from './ContactLink.svelte';
 
 	let scrollY = 0;
 
@@ -27,46 +26,15 @@
 </script>
 
 <header
-	class="rounded-full md:h-16 h-14 flex items-center md:max-w-5xl w-[97%] mx-auto sticky top-3 left-0 right-0 z-50 transition-all duration-300"
+	class="rounded-full h-14 flex items-center md:max-w-4xl w-[97%] mx-auto sticky top-3 left-0 right-0 z-50 transition-all duration-300"
 	class:scrolled={isScrolled}
 >
-	<nav class=" md:px-8 md:py-6 p-4 flex justify-between gap-2 w-full">
-		<div class="flex gap-2 items-center flex-1">
+	<nav class=" p-4 flex justify-between gap-2 w-full">
+		<div class="flex gap-2 items-center justify-evenly md:justify-start flex-1">
 			<NavLinks />
 		</div>
-		<div class="flex gap-2 items-center">
-			<!-- GitHub -->
-			<a href="https://github.com/MohammadRaiyyan" rel="noopener noreferrer" target="_blank">
-				<button
-					class="group flex items-center gap-2 px-4 py-2 rounded-xl bg-blue-50/30 backdrop-blur-md
-								shadow-sm hover:shadow-lg hover:scale-105 transition border border-gray-200"
-					style="animation: fadeIn 0.4s ease forwards; animation-delay: {1 * 80}ms"
-					title="GitHub"
-				>
-					<GithubIcon />
-					<span
-						class="hidden sm:inline-block duration-300 ease-in-out group-hover:text-blue-600 transition"
-						>GitHub</span
-					>
-				</button>
-			</a>
-
-			<!-- LinkedIn -->
-			<a href="https://www.linkedin.com/in/m-raiyyan" rel="noopener noreferrer" target="_blank">
-				<button
-					class="group flex items-center gap-2 px-4 py-2 rounded-xl bg-blue-50/30 backdrop-blur-md
-								shadow-sm hover:shadow-lg hover:scale-105 transition border border-gray-200"
-					style="animation: fadeIn 0.4s ease forwards; animation-delay: {2 * 80}ms"
-					title="LinkedIn"
-				>
-					<Linkedin />
-
-					<span
-						class="hidden sm:inline-block duration-300 ease-in-out group-hover:text-blue-600 transition"
-						>LinkedIn</span
-					>
-				</button>
-			</a>
+		<div class="flex items-center justify-center">
+			<ContactLink />
 		</div>
 	</nav>
 </header>

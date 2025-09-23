@@ -7,18 +7,18 @@
 <section class="py-8 md:py-16" id="skills">
 	<PageTitle title="Skills" />
 
-	<div class="relative max-w-3xl mx-auto">
+	<div class="relative">
 		<!-- vertical timeline line -->
 		<div
-			class="absolute left-6 top-0 h-full w-1 bg-gradient-to-b from-cyan-500 via-blue-600 to-indigo-700 rounded-full"
+			class="absolute md:left-6 left-2 top-0 h-full w-1 bg-gradient-to-b from-cyan-500 via-blue-600 to-indigo-700 rounded"
 		/>
 
 		<div class="space-y-12">
 			{#each Skills as skill, i (skill.title)}
-				<div class="relative pl-16">
+				<div class="relative md:pl-16 pl-10">
 					<!-- marker dot -->
 					<div
-						class="absolute left-1.5 top-2 w-10 h-10 flex items-center justify-center rounded-full bg-white shadow-lg border border-blue-100"
+						class="absolute -left-2.5 md:left-1.5 top-2 w-10 h-10 flex items-center justify-center rounded bg-white shadow-lg border border-blue-100"
 					>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -38,14 +38,14 @@
 					</div>
 					<!-- Skills list -->
 					<div
-						class="bg-blue-50/30 backdrop-blur-md md:p-6 p-4 rounded-2xl shadow-md border border-gray-100 hover:shadow-lg transition"
+						class="bg-transparent backdrop-blur-[2px] md:p-6 p-4 rounded shadow-md border border-gray-100 hover:shadow-lg transition"
 					>
 						<h3 class="text-xl font-semibold text-gray-700 mb-4">{skill.title}</h3>
 
 						<div class="flex flex-wrap gap-2">
 							{#each skill.skills as s, j (s.name)}
 								<div
-									class="group flex items-center gap-2 px-4 py-2 rounded-xl bg-white/70 backdrop-blur-md
+									class="group flex items-center gap-2 px-4 py-2 rounded bg-white/70 backdrop-blur-md
 								shadow-sm hover:shadow-lg hover:scale-105 transition border border-gray-200"
 									style="animation: fadeIn 0.4s ease forwards; animation-delay: {j * 80}ms"
 								>

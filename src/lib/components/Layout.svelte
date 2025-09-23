@@ -12,7 +12,7 @@
 >
 	<!-- Blurred radial blob with Sunset Glow -->
 	<!-- <div
-		class="absolute left-0 right-0 top-80 m-auto h-[310px] w-[410px] rounded-full
+		class="absolute left-0 right-0 top-80 m-auto h-[310px] w-[410px] rounded
     bg-gradient-to-l from-cyan-500 via-blue-600 to-indigo-700 opacity-30 blur-[120px]"
 	/> -->
 </div>

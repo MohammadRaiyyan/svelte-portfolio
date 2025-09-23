@@ -6,7 +6,7 @@
 	import Skills from '$lib/components/Skills.svelte';
 </script>
 
-<div class="container mx-auto max-w-5xl px-3 lg:p-0">
+<div class="container mx-auto max-w-4xl space-y-12 px-3 lg:p-0">
 	<Hero />
 	<Experience />
 	<Skills />

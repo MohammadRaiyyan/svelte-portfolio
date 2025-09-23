@@ -43,7 +43,7 @@
 	});
 </script>
 
-<div class="w-full bg-black/70 backdrop-blur-md rounded-md shadow-md">
+<div class="w-full bg-black/70 backdrop-blur-md rounded shadow-md">
 	<pre>
 		{#each $displayText as line, i}
 			{line}{i === $displayText.length - 1 ? '' : '\n'}
