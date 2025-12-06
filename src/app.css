@@ -1,15 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 html {
-	font-family: 'Plus Jakarta Sans', sans-serif;
+	font-family: 'Space Mono', monospace;
+	font-weight: 400;
+	font-style: normal;
 	scroll-behavior: smooth;
 }
 body {
 	@apply scroll-mt-8 tracking-wide;
 }
+
+.space-mono-regular {
+	font-family: 'Space Mono', monospace;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.space-mono-bold {
+	font-family: 'Space Mono', monospace;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.space-mono-regular-italic {
+	font-family: 'Space Mono', monospace;
+	font-weight: 400;
+	font-style: italic;
+}
+
+.space-mono-bold-italic {
+	font-family: 'Space Mono', monospace;
+	font-weight: 700;
+	font-style: italic;
+}
+
 .active-nav {
 	@apply text-blue-600 cursor-default font-bold;
 }

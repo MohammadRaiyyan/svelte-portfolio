@@ -1,5 +1,4 @@
 <script>
-	import { Navbar } from '$lib';
 	import Footer from './Footer.svelte';
 </script>
 
@@ -18,9 +17,9 @@
 </div>
 
 <!-- Content -->
-<Navbar />
+<!-- <Navbar /> -->
 
-<div class="relative z-10">
+<div class="relative z-10 p-4">
 	<slot />
 	<Footer />
 </div>

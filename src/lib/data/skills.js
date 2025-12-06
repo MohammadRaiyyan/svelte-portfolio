@@ -1,41 +1,26 @@
 export const Skills = [
-	{
-		title: 'Languages',
-		subtitle: 'Client-side technologies',
-		skills: [
-			{ name: 'HTML', icon: 'html', colorTheme: '#e34c26' },
-			{ name: 'CSS', icon: 'css', colorTheme: '#2965f1' },
-
-			{ name: 'JavaScript', icon: 'javascript', colorTheme: '#f0db4f' },
-			{ name: 'TypeScript', icon: 'typescript', colorTheme: '#3178c6' },
-
-			{ name: 'Java', icon: 'java', colorTheme: '#339933' },
-			{ name: 'SQL', icon: 'postgress', colorTheme: '#336791' }
-		]
-	},
-	{
-		title: 'Libraries & Frameworks',
-		subtitle: 'Server-side technologies',
-		skills: [
-			{ name: 'Tailwind CSS', icon: 'tailwind', colorTheme: '#38b2ac' },
-			{ name: 'React.js', icon: 'react', colorTheme: '#00D8FF' },
-			{ name: 'Next.js', icon: 'next', colorTheme: '#000000' },
-			{ name: 'Svelte', icon: 'svelte', colorTheme: '#ff3e00' },
-			{ name: 'Redux', icon: 'redux', colorTheme: '#764abc' },
-			{ name: 'Zustand', icon: 'zustand', colorTheme: '#000000' },
-			{ name: 'Context API', icon: 'context', colorTheme: '#61dafb' },
-			{ name: 'D3.js', icon: 'd3', colorTheme: '#f9a03c' },
-			{ name: 'Chart.js', icon: 'chartjs', colorTheme: '#ff6384' },
-			{ name: 'Spring Boot', icon: 'spring', colorTheme: '#306998' }
-		]
-	},
-	{
-		title: 'Tools',
-		subtitle: 'Graph & charting libraries',
-		skills: [
-			{ name: 'Docker', colorTheme: '#0db7ed' },
-			{ name: 'GitHub ', icon: 'github-actions', colorTheme: '#2088FF' },
-			{ name: 'Vite', icon: 'vite', colorTheme: '#646CFF' }
-		]
-	}
+	{ name: 'HTML', iconViaURL: 'html', colorTheme: '#e34c26' },
+	{ name: 'CSS', iconViaURL: 'css', colorTheme: '#2965f1' },
+	{ name: 'Tailwind CSS', iconViaURL: 'tailwind', colorTheme: '#38b2ac' },
+	{ name: 'Shadcn UI', icon: 'shadcn', colorTheme: '#000000' },
+	{ name: 'React.js', iconViaURL: 'react', colorTheme: '#00D8FF' },
+	{ name: 'Next.js', iconViaURL: 'next', colorTheme: '#000000' },
+	{ name: 'Svelte.js', iconViaURL: 'svelte', colorTheme: '#ff3e00' },
+	{ name: 'Vue.js', iconViaURL: 'vue', colorTheme: '#41b883' },
+	{ name: 'Redux', iconViaURL: 'redux', colorTheme: '#764abc' },
+	{ name: 'Zustand', icon: 'zustand', colorTheme: '#000000' },
+	{ name: 'Chart.js', iconViaURL: 'd3', colorTheme: '#ff6384' },
+	{ name: 'JavaScript', iconViaURL: 'javascript', colorTheme: '#f0db4f' },
+	{ name: 'TypeScript', iconViaURL: 'typescript', colorTheme: '#3178c6' },
+	{ name: 'Node.js', iconViaURL: 'nodejs', colorTheme: '#3178c6' },
+	{ name: 'Express.js', iconViaURL: 'express', colorTheme: '#000000' },
+	{ name: 'Vitest', iconViaURL: 'vitest', colorTheme: '#000000' },
+	{ name: 'Jest', iconViaURL: 'jest', colorTheme: '#000000' },
+	{ name: 'Drizzle ORM', icon: 'drizzle', colorTheme: '#000000' },
+	{ name: 'GraphQL', iconViaURL: 'graphql', colorTheme: '#e10098' },
+	{ name: 'Java', iconViaURL: 'java', colorTheme: '#339933' },
+	{ name: 'PostgreSQL', iconViaURL: 'postgres', colorTheme: '#336791' },
+	{ name: 'Docker', iconViaURL: 'docker', colorTheme: '#0db7ed' },
+	{ name: 'Git', iconViaURL: 'git', colorTheme: '#2088FF' },
+	{ name: 'Vite', iconViaURL: 'vite', colorTheme: '#646CFF' }
 ];

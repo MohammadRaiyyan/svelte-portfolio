@@ -1,8 +1,18 @@
 export const projects = [
 	{
+		title: 'Vue Jobsy',
+		description:
+			'A feature-rich job search platform built with Vue.js, showcasing advanced filtering capabilities across large datasets. Implements Vuex for centralized state management and Axios for HTTP requests, with multi-criteria filtering, dynamic routing, and optimized performance for browsing thousands of job listings.',
+		image: '/images/jobsy.png',
+		githubLink: 'https://github.com/MohammadRaiyyan/jobsy',
+		link: 'https://app-jobsy.netlify.app/',
+		colorTheme: '#4338ca',
+		tags: ['vue', 'vue-router', 'vuex', 'axios', 'tailwindcss']
+	},
+	{
 		title: 'Cryptoworld',
 		description:
-			'Real-time crypto tracker built with React and Redux using the Coinranking API. Focused on live data integration and reusable UI components.',
+			'A comprehensive cryptocurrency tracking platform featuring real-time price updates, market statistics, and historical charts. Built with React and Redux for efficient state management, integrating the Coinranking API to deliver up-to-the-minute data on 100+ cryptocurrencies with responsive, reusable UI components.',
 		image: '/images/crypto.png',
 		githubLink: 'https://github.com/2raiyyan1khan/cryptoworld',
 		link: 'https://world-crypto-app.netlify.app/',
@@ -12,7 +22,7 @@ export const projects = [
 	{
 		title: 'Svelte Todo',
 		description:
-			'Lightweight task manager built with Svelte and TypeScript. Practiced reactive state, form handling, and local storage persistence.',
+			"A modern, performant task management application leveraging Svelte's reactive paradigm and TypeScript for type safety. Features intuitive task creation, editing, and deletion with persistent local storage, demonstrating Svelte's minimal bundle size and reactive state management capabilities.",
 		image: '/images/svelte-todo.png',
 		githubLink: 'https://github.com/MohammadRaiyyan/svelte-todo',
 		link: 'https://app-svelte-todo.netlify.app/',
@@ -22,27 +32,18 @@ export const projects = [
 	{
 		title: 'MovieFlix',
 		description:
-			'Movie search app with React + Redux and the OMDb API. Implemented debounced search and optimized API queries for a smooth browsing experience.',
+			'An elegant movie discovery platform powered by the OMDb API, featuring intelligent debounced search functionality and optimized API queries. Utilizes React and Redux for seamless state management, delivering instant search results and detailed movie information including ratings, cast, and plot summaries.',
 		image: '/images/movieflix.png',
 		githubLink: 'https://github.com/2raiyyan1khan/movieFlix',
 		link: 'https://movieflix-react-app.netlify.app/',
 		colorTheme: '#262144',
 		tags: ['react', 'omdb-api', 'scss']
 	},
-	{
-		title: 'Vue Jobsy',
-		description:
-			'Job search platform built with Vue, Vuex, and Axios. Learned filtering large datasets and managing state across multiple views.',
-		image: '/images/jobsy.png',
-		githubLink: 'https://github.com/MohammadRaiyyan/jobsy',
-		link: 'https://app-jobsy.netlify.app/',
-		colorTheme: '#4338ca',
-		tags: ['vue', 'vue-router', 'vuex', 'axios', 'tailwindcss']
-	},
+
 	{
 		title: 'Music Mantra',
 		description:
-			'Music player using React, Redux, and YouTube API. Focused on handling media content, organizing by genres, and building a clean playback UI.',
+			'A fully-functional music streaming application integrating the YouTube API for playback. Features genre-based organization, playlist management, and a sleek playback interface built with React and Redux. Handles media streaming, queue management, and provides an immersive audio experience with custom controls.',
 		image: '/images/musicmuntra.png',
 		githubLink: '/',
 		link: 'https://music-muntra.netlify.app/',
@@ -50,19 +51,9 @@ export const projects = [
 		tags: ['react', 'redux', 'youtube-api', 'axios', 'tailwindcss']
 	},
 	{
-		title: 'Store Template',
-		description:
-			'E-commerce template in vanilla JavaScript. Implemented cart management, category filtering, and practiced DOM manipulation with clean code structure.',
-		image: '/images/jsStore.png',
-		githubLink: 'https://github.com/2raiyyan1khan/javascript-shoping-cart',
-		link: 'https://javascript-shoping-cart.netlify.app/',
-		colorTheme: '#150456',
-		tags: ['javascript', 'html', 'css']
-	},
-	{
 		title: 'Keeper',
 		description:
-			'Full-stack task manager with SolidJS, Node.js, and MongoDB. Gained experience with client-server communication and real-time updates using TanStack Query.',
+			'A production-ready full-stack task management system built with SolidJS on the frontend and Node.js/MongoDB on the backend. Features real-time synchronization using TanStack Query, advanced filtering by status and priority, RESTful API architecture, and optimistic updates for instantaneous user feedback.',
 		image: '/images/keeper.png',
 		githubLink: 'https://github.com/MohammadRaiyyan/keeper-solid',
 		link: 'https://keeper-solid.netlify.app/tasks?status=All%20Status&priority=All%20Priority&sortBy=Newest&search=',
@@ -72,7 +63,7 @@ export const projects = [
 	{
 		title: 'Image Gallery',
 		description:
-			'Photo gallery powered by the Pexels API. Built a responsive search experience and practiced efficient data fetching with vanilla JavaScript.',
+			'A responsive image gallery application showcasing mastery of vanilla JavaScript fundamentals. Integrates the Pexels API for high-quality stock photos, featuring infinite scroll, efficient lazy loading, and dynamic search functionality—all without framework dependencies, demonstrating strong core JavaScript skills.',
 		image: '/images/gallery.png',
 		githubLink: 'https://github.com/2raiyyan1khan/image-gallery-using-pexels-api',
 		link: 'https://pixel-gallery.netlify.app/',
@@ -82,7 +73,7 @@ export const projects = [
 	{
 		title: 'Food Recipe App',
 		description:
-			'Recipe finder using the Edamam API and vanilla JS. Focused on fetch API, query parameter handling, and building a simple API-driven UI.',
+			'A culinary discovery application built with vanilla JavaScript and the Edamam API. Search through thousands of recipes with detailed nutritional information, ingredient lists, and cooking instructions. Demonstrates proficiency with the Fetch API, asynchronous programming, and creating intuitive, API-driven user interfaces.',
 		image: '/images/foodrecipe.png',
 		githubLink: 'https://github.com/2raiyyan1khan/food-recipe',
 		link: 'https://js-food-recipe.netlify.app/',
