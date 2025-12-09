@@ -40,7 +40,7 @@
 			<span class="text-gray-700">Connect with me:</span>
 			<div class="flex items-center gap-3">
 				<a
-					href="https://linkedin.com/in/your-profile"
+					href="www.linkedin.com/in/m-raiyyan"
 					target="_blank"
 					rel="noopener noreferrer"
 					class="text-blue-600 hover:text-blue-800 hover:underline flex items-center gap-1 transition-colors"
@@ -54,7 +54,7 @@
 				</a>
 				<span class="text-gray-400">•</span>
 				<a
-					href="https://github.com/your-username"
+					href="https://github.com/MohammadRaiyyan"
 					target="_blank"
 					rel="noopener noreferrer"
 					class="text-gray-700 hover:text-gray-900 hover:underline flex items-center gap-1 transition-colors"
