@@ -3,7 +3,7 @@
 
 <div
 	id="about"
-	class="w-full mx-auto self-start flex flex-col items-center justify-center text-center lg:text-left"
+	class="w-full mx-auto self-start flex flex-col items-center justify-center text-left"
 >
 	<!-- Header with Name and Profile Image -->
 	<div
@@ -20,7 +20,7 @@
 	<!-- Bio Content -->
 	<div class="text-gray-600 leading-relaxed space-y-2 text-base sm:text-lg">
 		<p>
-			I'm a <strong class="text-gray-700">Full Stack Developer</strong> with
+			I'm a <strong class="text-gray-700">Frontend Engineer</strong> with
 			<span class="text-blue-600 font-semibold">~4 years</span> of experience.
 		</p>
 		<p>
